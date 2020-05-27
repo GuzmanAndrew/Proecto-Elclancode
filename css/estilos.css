@@ -30,7 +30,7 @@ body {
           transition: all .5s ease; }
 
 .encabezado.fondo-menu {
-  background: #12AFAF;
+  background: #064e4e;
   padding: 1rem 0; }
 
 .encabezado .container {
@@ -99,7 +99,7 @@ body {
           flex: 1 1 auto;
   border: 0;
   border-radius: 0 5px 5px 0;
-  background: #b71c1c;
+  background: #12AFAF;
   color: #fff;
   -webkit-box-flex: 0;
   -webkit-flex: 0 1 auto;
@@ -129,7 +129,7 @@ body {
 
 #menu-principal ul a:hover,
 #menu-principal ul li.active a {
-  color: #b71c1c; }
+  color: #12AFAF; }
 
 .texto-encabezado {
   -webkit-box-flex: 1;
@@ -161,7 +161,7 @@ body {
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active:hover {
-  background-color: #b71c1c;
+  background-color: #009500;
   border-color: transparent; }
 
 .flecha-bajar a {
@@ -196,7 +196,7 @@ body {
 SECCION AGENCIA
 ------------------------------*/
 .agencia {
-  background: #b71c1c;
+  background: #12AFAF;
   color: #fff; }
 
 .agencia img {
@@ -205,7 +205,7 @@ SECCION AGENCIA
   display: block; }
 
 /*----------------------------
-SECCION TU MEJOR ELECCIÓN
+SECCION TU MEJOR ELECCI├ôN
 ----------------------------*/
 .tu-mejor-eleccion h2 span {
   color: #12AFAF; }
@@ -216,7 +216,7 @@ SECCION TU MEJOR ELECCIÓN
 
 .tu-mejor-eleccion ul li .fa {
   font-size: 2.3rem;
-  background: #12AFAF;
+  background: #009500;
   border-radius: 50%;
   width: 4.7rem;
   height: 4.7rem;
@@ -336,7 +336,7 @@ SECCION ├ÜLTIMOS PROYECTOS
 
 .ultimos-proyectos .owl-prev:hover,
 .ultimos-proyectos .owl-next:hover {
-  color: #b71c1c; }
+  color: #009500; }
 
 /*----------------------------------------
 SECCION PIE DE PAGINA
@@ -376,7 +376,7 @@ SECCION PIE DE PAGINA
   bottom: 1rem;
   right: 1rem;
   font-size: 3rem;
-  color: #b71c1c;
+  color: #12afaf;
   text-decoration: none;
   z-index: 99999;
   line-height: 0;
@@ -428,12 +428,12 @@ ESTILOS PAGINA NOSOTROS
 ESTILOS PAGINA SERVICIOS
 --------------------------------------------*/
 .paginas-internas .lista-servicios {
-  background: #b71c1c; }
+  background: #009500; }
 
 .paginas-internas .lista-servicios .item-servicios {
   background: #ffffff;
   text-align: center;
-  border: 5px solid #b71c1c;
+  border: 5px solid #057705;
   border-radius: 5px;
   margin-bottom: 1rem;
   padding: 1rem; }
@@ -486,7 +486,7 @@ EMPIEZAN LAS MEDIAS QUERIES
 
   #menu-principal ul li.active a,
   #menu-principal ul li a:hover {
-    color: #b71c1c;
+    color: #12AFAF;
     border-bottom: 4px solid; }
 
   .boton-buscar {
@@ -610,7 +610,7 @@ EMPIEZAN LAS MEDIAS QUERIES
             transform: rotateY(360deg);
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
-    background: #b71c1c; }
+    background: #12AFAF; }
 
   .contenedor-eleccion {
     -webkit-box-flex: 1;
@@ -639,45 +639,3 @@ EMPIEZAN LAS MEDIAS QUERIES
     background-size: cover; } }
 
 /*# sourceMappingURL=estilos.css.map */
-
-.suscripcion{
-  color: #12AFAF;
-}
-
-.btn-suscripcion, .btn-contacto{
-  background-color: #12AFAF;
-  color: white;
-}
-
-.btn-suscripcion, .btn-contacto:hover{
-  background-color: #b71c1c;
-  color: white;
-}
-
-.footer, .menu{
-  background-color: #101010;
-}
-
-/*
-Lo más destacable en este fragmento de código es la aplicación de display: flex; el 
-cual vuelve al contenedor un elemento flex. Con justify-content: center; le decimos 
-a los elementos del contenedor flex que se ubiquen al centro del eje principal 
-(el eje horizontal en este caso) y con align-items: center; estamos diciendo que 
-queremos que los elementos dentro del contenedor flex se ubiquen en el centro del 
-eje secundario (en este caso el vertical).
-
-Por otro lado, el centro vertical toma en cuenta la altura del contenedor, por tanto 
-se le asigna la propiedad min-height: 100vh; que significa tome como altura mínima 
-del contenedor el total del alto de la ventana del navegador web utilizado.
-*/
-
-.abs-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 22vh;
-}
-
-.form {
-  width: 450px;
-}

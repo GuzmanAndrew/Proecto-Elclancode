@@ -2,7 +2,7 @@
 // PATRON DE COLORES
 //-----------------------
 $texto:#111111;
-$principal:#b71c1c;
+$principal:#12AFAF;
 $secundario:#009500;
 html {
     font-size: 15px;
@@ -297,7 +297,7 @@ SECCION PIE DE PAGINA
     bottom: 1rem;
     right: 1rem;
     font-size: 3rem;
-    color: #b71c1c;
+    color: rgb(18, 175, 175);
     text-decoration: none;
     z-index: 99999;
     line-height: 0;
@@ -395,7 +395,7 @@ EMPIEZAN LAS MEDIAS QUERIES
     }
     #menu-principal ul li.active a,
     #menu-principal ul li a:hover {
-        color: #b71c1c;
+        color: #12AFAF;
         border-bottom: 4px solid
     }
     .boton-buscar {
@@ -479,7 +479,7 @@ EMPIEZAN LAS MEDIAS QUERIES
     .tu-mejor-eleccion ul li:hover .fa {
         transform: rotateY(360deg);
         transform-style: preserve-3d;
-        background: #b71c1c;
+        background: #12AFAF
     }
     .contenedor-eleccion {
         flex: 1 0 0px
