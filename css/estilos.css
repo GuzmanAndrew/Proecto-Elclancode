@@ -7,7 +7,7 @@ body {
   color: #111111; }
 
 .bienvenidos {
-  background: url("../images/fondo-encabezado.jpg") no-repeat center top;
+  background: url("../images/image-portada-dos.png") no-repeat center top;
   color: #fff;
   background-size: cover;
   background-attachment: fixed !important;
@@ -273,7 +273,7 @@ SECCION TU MEJOR ELECCI├ôN
 SECCION SERVICIOS
 --------------------------------*/
 .servicios {
-  background: url("../images/fondo-servicios.jpg") no-repeat center center;
+  background: url("../images/image-servicio-index.png") no-repeat center center;
   background-size: cover;
   background-attachment: fixed !important;
   color: #fff; }
@@ -321,7 +321,7 @@ SECCION SERVICIOS
           align-items: center;
   text-decoration: none; }
 
-.servicios h3 a::after {
+/*.servicios h3 a::after {
   content: "\f054";
   font-family: FontAwesome;
   font-size: 2rem;
@@ -331,6 +331,7 @@ SECCION SERVICIOS
   left: 0;
   -webkit-transition: all .5s ease;
           transition: all .5s ease; }
+*/
 
 .servicios h3 a:hover::after {
   left: -.5rem;
