@@ -7,7 +7,7 @@ body {
   color: #111111; }
 
 .bienvenidos {
-  background: url("../images/image-portada-dos.png") no-repeat center top;
+  background: url("../images/image-portada-dos.jpg") no-repeat center top;
   color: #fff;
   background-size: cover;
   background-attachment: fixed !important;
@@ -23,7 +23,7 @@ body {
           flex-direction: column; }
 
 .portada-contacto{
-  background: url("../images/portada-contact.png") no-repeat center top;
+  background: url("../images/portada-contact.jpg") no-repeat center top;
   color: #fff;
   background-size: cover;
   background-attachment: fixed !important;
@@ -40,7 +40,7 @@ body {
 }
 
 .bienvenidos-servicios{
-  background: url("../images/image-servicios.png") no-repeat center top;
+  background: url("../images/image-servicios.jpg") no-repeat center top;
   color: #fff;
   background-size: cover;
   background-attachment: fixed !important;
@@ -273,7 +273,7 @@ SECCION TU MEJOR ELECCI├ôN
 SECCION SERVICIOS
 --------------------------------*/
 .servicios {
-  background: url("../images/image-servicio-index.png") no-repeat center center;
+  background: url("../images/image-servicio-index.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed !important;
   color: #fff; }
@@ -632,7 +632,7 @@ EMPIEZAN LAS MEDIAS QUERIES
     font-size: 16px; }
 
   .bienvenidos {
-    background: url("../images/image-portada-dos.png") no-repeat center top;
+    background: url("../images/image-portada-dos.jpg") no-repeat center top;
     background-size: cover; }
 
   .tu-mejor-eleccion ul li {
@@ -682,7 +682,7 @@ EMPIEZAN LAS MEDIAS QUERIES
     width: 100%; }
 
   .servicios {
-    background: url("../images/image-servicio-index.png") no-repeat center center;
+    background: url("../images/image-servicio-index.jpg") no-repeat center center;
     background-size: cover; } }
 
 /*# sourceMappingURL=estilos.css.map */
